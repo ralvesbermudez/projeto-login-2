@@ -1,0 +1,138 @@
+@charset "UTF-8";
+
+/*
+    Paleta de cores
+    verde: #49a09d
+    roxo: #5f2c82
+*/
+
+body {
+    height: 100%;
+    width: 100%;
+}
+
+main {
+    height: 100%;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    overflow: hidden;
+    background-color: white;
+    width: 26rem;
+    height: 54rem;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.400);
+    transition: width  0.5s, height 0.5s;
+    transition-timing-function: ease;
+}
+
+.wrap-image {
+    width: 100%;
+    height: 200px;
+}
+
+.image {
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.container-login {
+    padding: 1.2rem;
+}
+
+.login-title {
+    font-size: 2.4rem;
+    text-align: center;
+    margin-bottom: 1.2rem;
+    font-weight: 700;
+}
+
+.login-subtitle {
+    font-size: 1.28rem;
+    margin-bottom: 1.2rem;
+}
+
+.wrap-input {
+    background-color: #5f2c82;
+    display: flex;
+    margin-bottom: 0.8rem;
+    border-radius: 0.8rem;
+    padding: 0.4rem;
+}
+
+.input {
+    background-color: rgb(90, 196, 192);
+    font-size: 1.6rem;
+    width: 100%;
+    border-radius: 8px;
+    padding: 4px 4px 5px 4px;
+}
+
+label {
+    display: none;
+}
+
+.icon {
+    color: white;
+    font-size: 3.2rem;
+    padding: 5px;
+}
+
+.icon.email {
+    font-size: 1.28rem;
+    padding: 0;
+    margin-left: 0.4rem;
+    color: rgba(73, 160, 157, 0.8);
+}
+
+input:focus-within {
+    background-color: white;
+}
+
+.button {
+    text-align: center;
+    font-size: 1.6rem;
+    width: 100%;
+    height: 35px;
+    background-color: rgba(73, 160, 157, 0.8);
+    color: white;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 0.8rem;
+}
+
+.button:hover {
+    background-color: white;
+    color:rgba(73, 160, 157, 0.8);
+    border: 1px solid rgba(73, 160, 157, 0.8);
+}
+
+.forgot-password {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 1.6rem;
+    width: 100%;
+    height: 35px;
+    background-color: white;
+    color: rgb(63, 138, 135);
+    border: 1px solid rgba(73, 160, 157, 0.8);
+    border-radius: 8px;
+    text-decoration: none;
+}
+
+.forgot-password:hover {
+    background-color: rgba(73, 160, 157, 0.8);
+    color: white;
+}
+
+.forgot-password:hover .email {
+    color: white;
+}
